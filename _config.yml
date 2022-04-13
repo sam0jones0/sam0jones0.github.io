@@ -106,9 +106,10 @@ content:
         link: github.com/sam0jones0
         sub_title: Self Manager
         caption: August 2018 - Present
-        quote: >
-          Recovered(!) from health issues and focused on developing my technical skills.
+#        quote: >
         description: | # this will include new lines to allow paragraphs
+          **Recovered(!) from health issues and focused on developing my technical skills.**
+          
           Developed skills:
           - [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview).
           - [Data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms).
@@ -128,9 +129,10 @@ content:
         link: opticommerce.co.uk
         sub_title: Project Manager
         caption: March 2014 - August 2018
-        quote: >
-          Managed the development and ongoing maintenance of over 100 websites.
+#        quote: >
         description: | # this will include new lines to allow paragraphs
+          **Managed the development and ongoing maintenance of over 100 websites.**
+          
           Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>JIRA</mark>.
 
           Monitored our web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
