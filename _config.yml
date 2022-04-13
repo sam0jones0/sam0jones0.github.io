@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   I'm an active proponent of <mark>Python</mark> - I love the development-speed and maintainability powerup afforded by it's readability and comprehensive standard library. The extension ecosystem is pretty great too.
   
-  My most recent personal projects includes a <mark>BeautifulSoup</mark> powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
+  My most recent personal projects include a <mark>BeautifulSoup</mark> powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
 
 content:
   - title: Projects # Title for the section
