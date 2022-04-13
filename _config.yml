@@ -72,14 +72,14 @@ content:
         quote: >
           Periodically check your public Amazon wishlist for price reductions.
         description: | # this will include new lines to allow paragraphs
-          I started this project to learn more about web scraping with Python and <mark>BeautifulSoup</mark> while also getting some experience with the Python packaging ecosystem... and perhaps to find a few bargins in the process.
+          I started this project to learn more about web scraping with Python and <mark>BeautifulSoup</mark> while also getting some experience with the Python packaging ecosystem... and perhaps to find a few bargains in the process.
           
           It has good test coverage with <mark>pytest</mark>. Typed and checked with <mark>mypy</mark>. All code is concisely documented with Google style docstrings.
           
           It's doesn't feel as good to make something people won't use, so I put a fair amount of time into the readme and installation flow.
       - layout: top-middle
         title: PyAntiStylometry
-        link: github.com/sam0jones0/amazon_wishlist_pricewatch
+        link: https://github.com/sam0jones0/pyantistylometry
         # link_text: Project Website
         additional_links:
           - title: sam0jones0/pyantistylometry
@@ -107,14 +107,14 @@ content:
         sub_title: Self Manager
         caption: August 2018 - Present
         quote: >
-          **Recovered(!)** from health issues and focused on developing my technical skills.
+          Recovered(!) from health issues and focused on developing my technical skills.
         description: | # this will include new lines to allow paragraphs
           Developed skills:
-          - [Programming in <mark>Python</mark>](https://github.com/sam0jones0/cracking-the-coding-interview).
+          - [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview).
           - [Data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms).
           - [Object-orientated design patterns](https://github.com/sam0jones0/oo-design).
+          - [Django website development](https://github.com/sam0jones0/learning_log_django)
           - Unit/integration testing.
-          - [<mark>Django</mark> website development](https://github.com/sam0jones0/learning_log_django)
           - Penetration-testing/cyber security:
             - OWASP Top Ten.
             - HackTheBox / TryHackMe / Metasploitable
@@ -145,7 +145,7 @@ content:
 #        quote: >
 #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time studying psychology at Portsmouth I spent a lot of time anaylsing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
+          During my time studying psychology at Portsmouth I spent a lot of time analysing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
           
           My dissertation was a study exploring differences in communication efficiency between face-to-face and virtual (think webcam-to-webcam meetings) information sharing. 
 
