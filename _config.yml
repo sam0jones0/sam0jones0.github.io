@@ -6,27 +6,27 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Sam Jones
+title: Junior Python Developer / Cybersecurity Enthusiast
+email: sam0jones0 ät ġmạíḷ ɗȯτ ƈơm
+website: sam0jones0.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: none
+github_username:  sam0jones0
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
+# dribbble_username: none
+# facebook_username: none
+# flickr_username: none
+#instagram_username: none
+linkedin_username: sam0jones0
+# xing_username: none
+# pinterest_username: none
+# youtube_username: none
+# googleplus_username: +none
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
