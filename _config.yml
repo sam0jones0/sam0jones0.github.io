@@ -110,7 +110,7 @@ content:
           Recovered(!) from health issues and focused on developing my technical skills.
         description: | # this will include new lines to allow paragraphs
           I took a sabbatical for medical reasons from which I am fully recovered, during this time I took the opportunity to drill down on technical learning and projects. Including: [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [Django website development](https://github.com/sam0jones0/learning_log_django) and more:
-          - Unit/integration testing.
+          - Unit/integration testing
           - Penetration-testing/cyber security:
             - OWASP Top Ten
             - HackTheBox / TryHackMe / Metasploitable
@@ -129,10 +129,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
 
-          Monitored our web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
+          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
           - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
           - Automated several processes for Jira project management, requirements gathering and client feedback.
-          - Ensured current web usability/accessibility standards and design guidelines were adhered to.
+          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
           - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
 
 
