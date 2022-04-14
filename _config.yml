@@ -91,7 +91,7 @@ content:
         quote: >
           A project exploring the feasibility of an automated and extensible anti-stylometry tool written in Python.
         description: | # this will include new lines to allow paragraphs
-          Privacy is an increasingly urgent concern with worrying implications for society^[ref](https://www.socialcooling.com/)^. Thankfully, awareness is growing and more people are taking steps to preserve their digital privacy as evidenced by the rising popularity of VPN software or the introduction of the recent GDPR regulations.
+          Privacy is an increasingly urgent concern with worrying implications for society[<sup>1</sup>](https://www.socialcooling.com/). Thankfully, awareness is growing and more people are taking steps to preserve their digital privacy as evidenced by the rising popularity of VPN software or the introduction of the recent GDPR regulations.
           
           This project is a response to the apparent scarcity of actively developed tools aimed at protecting against an individual's writing style betraying their identity.
           
