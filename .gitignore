@@ -1,2 +1,9 @@
 /Gemfile.lock
 /_site/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/sam0jones0.github.io.iml
+/.idea/vcs.xml
