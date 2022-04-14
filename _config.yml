@@ -46,7 +46,7 @@ linkedin_username: sam0jones0
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sam and I'm working on transforming tech into a force to create positive social change. My current strategy revolves around writing open-source software and developing my skills in Python and cybersecurity. I have a working background in website hosting and development in small-medium teams.
   
