@@ -9,7 +9,7 @@ version: 2
 name: Sam Jones
 title: Python - Cybersecurity - Linux
 email: sam0jones0 ät ġmạíḷ ɗȯτ ƈóm
-website: sam0jones0.github.io
+#website: sam0jones0.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -72,7 +72,7 @@ content:
         quote: >
           Periodically check your public Amazon wishlist for price reductions.
         description: | # this will include new lines to allow paragraphs
-          I started this project to learn more about web scraping with Python and <mark>BeautifulSoup</mark> while also getting some experience with the Python packaging ecosystem... and perhaps to find a few bargains in the process.
+          I started this project to learn more about web scraping with Python and BeautifulSoupwhile also getting some experience with the Python packaging ecosystem... and perhaps to find a few bargains in the process.
           
           It has good test coverage with <mark>pytest</mark>. Typed and checked with <mark>mypy</mark>. All code is concisely documented with Google style docstrings.
           
@@ -91,7 +91,7 @@ content:
         quote: >
           A project exploring the feasibility of an automated and extensible anti-stylometry tool written in Python.
         description: | # this will include new lines to allow paragraphs
-          Privacy is an increasingly urgent concern with worrying implications for society [[ref](https://www.socialcooling.com/)]. Thankfully, awareness is growing and more people are taking steps to preserve their digital privacy as evidenced by the rising popularity of VPN software or the introduction of the recent GDPR regulations.
+          Privacy is an increasingly urgent concern with worrying implications for society^[ref](https://www.socialcooling.com/)^. Thankfully, awareness is growing and more people are taking steps to preserve their digital privacy as evidenced by the rising popularity of VPN software or the introduction of the recent GDPR regulations.
           
           This project is a response to the apparent scarcity of actively developed tools aimed at protecting against an individual's writing style betraying their identity.
           
