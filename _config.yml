@@ -109,20 +109,16 @@ content:
         quote: >
           Recovered(!) from health issues and focused on developing my technical skills.
         description: | # this will include new lines to allow paragraphs
-          Developed skills:
-          - [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview).
-          - [Data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms).
-          - [Object-orientated design patterns](https://github.com/sam0jones0/oo-design).
-          - [Django website development](https://github.com/sam0jones0/learning_log_django)
+          I took a sabbatical for medical reasons from which I am fully recovered, during this time I took the oppurtunity to drill down on technical learning and projects. Including: [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [Django website development](https://github.com/sam0jones0/learning_log_django) and more:
           - Unit/integration testing.
           - Penetration-testing/cyber security:
-            - OWASP Top Ten.
+            - OWASP Top Ten
             - HackTheBox / TryHackMe / Metasploitable
             - Kali Linux / ParrotOS
-          - Linux desktop/server administration.
+          - Linux desktop/server administration
           - GNU Core Utilities
-          - Git.
-          - Open source software contributions.
+          - Git
+          - Open source software contributions
       - layout: left
         title: OptiCommerce
         link: opticommerce.co.uk
@@ -143,7 +139,7 @@ content:
         caption: 2009 - 2012
         sub_title: BSc Psychology
 #        quote: >
-#          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+#          none
         description: | # this will include new lines to allow paragraphs
           During my time studying psychology at Portsmouth I spent a lot of time analysing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
           
