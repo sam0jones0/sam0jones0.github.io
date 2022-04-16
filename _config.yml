@@ -59,16 +59,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+#        border: weak
         title: Amazon Wishlist Pricewatch
         link: github.com/sam0jones0/amazon_wishlist_pricewatch
         # link_text: Project Website
         additional_links:
           - title:  sam0jones0/amazon_wishlist_pricewatch
-            icon: fab fa-github
+            icon: "#icon-github"
             url: github.com/sam0jones0/amazon_wishlist_pricewatch
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Periodically check your public Amazon wishlist for price reductions.
         description: | # this will include new lines to allow paragraphs
@@ -83,11 +81,8 @@ content:
         # link_text: Project Website
         additional_links:
           - title: sam0jones0/pyantistylometry
-            icon: fab fa-github
+            icon: "#icon-github"
             url: github.com/sam0jones0/pyantistylometry
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           A project exploring the feasibility of an automated and extensible anti-stylometry tool written in Python.
         description: | # this will include new lines to allow paragraphs

@@ -29,6 +29,18 @@ ul.icons a {
   line-height:60px;
 }
 
+.svg-icon {
+  display: inline-block;
+  width: 1em;
+  height: 2em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  fill: currentColor;
+}
+
 .icons {
   padding: 0;
   font-size: 1rem;
