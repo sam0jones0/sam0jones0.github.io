@@ -104,7 +104,7 @@ content:
         quote: >
           Recovered(!) from health issues and focused on developing my technical skills.
         description: | # this will include new lines to allow paragraphs
-          I took a sabbatical for medical reasons from which I am fully recovered, during this time I took the opportunity to drill down on technical learning and projects. Including: [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [Django website development](https://github.com/sam0jones0/learning_log_django) and more:
+          I took a sabbatical for medical reasons from which I am fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [Django website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
           - Unit/integration testing
           - Penetration-testing/cyber security:
             - OWASP Top Ten
