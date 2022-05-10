@@ -50,7 +50,7 @@ about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Sam and I'm working on transforming tech into a force to create positive social change. My current strategy revolves around writing open-source software and developing my skills in Python and cybersecurity. I have a working background in website hosting and development in small-medium teams.
   
-  I'm an active proponent of <mark>Python</mark> - I love the development-speed and maintainability power-up afforded by it's readability and comprehensive standard library. The extension ecosystem is pretty great too.
+  I'm an active proponent of <mark>Python</mark> - I love the development-speed and maintainability power-up afforded by its readability and comprehensive standard library. The extension ecosystem is pretty great too.
   
   My most recent personal projects include a <mark>BeautifulSoup</mark> powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
 
