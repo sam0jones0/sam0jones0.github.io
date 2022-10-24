@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sam Jones
-title: Python - Cybersecurity - Linux
+title: Software Engineering Graduate at Sky
 email: sam0jones0 ät ġmạíḷ ɗȯτ ƈóm
 #website: sam0jones0.github.io
 
@@ -48,11 +48,13 @@ linkedin_username: sam0jones0
 # about_title: About Me
 about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sam and I'm working on transforming tech into a force to create positive social change. My current strategy revolves around writing open-source software and developing my skills in Python and cybersecurity. I have a working background in website hosting and development in small-medium teams.
+  Hi, my name's Sam and I'm working on transforming tech into a force to create positive social change. My current strategy is focused on developing my tech skills/knowledge. I have a working background in software engineering across the stack.
   
-  I'm an active proponent of <mark>Python</mark> - I love the development-speed and maintainability power-up afforded by its readability and comprehensive standard library. The extension ecosystem is pretty great too.
+  I'm an active proponent of <mark>Python</mark> - I love the development-speed and teach-ability power-up afforded by its readability and comprehensive standard library. The extension ecosystem is pretty great too.
   
   My most recent personal projects include a <mark>BeautifulSoup</mark> powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
+  
+  I'm working as a software engineering graduate at Sky. The tech I'm currently working with is: <mark>Java</mark>, <mark>Spring</mark>, <mark>JavaScript</mark> and <mark>React</mark>
 
 content:
   - title: Projects # Title for the section
@@ -97,10 +99,25 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Sky
+        link: sky.com
+        sub_title: Software Engineering Graduate
+        caption: September 2022 - Present
+        quote: >
+          Full stack application development in Java, JavaScript and React
+        description: | # this will include new lines to allow paragraphs
+          Working in an Agile team to deliver reliable applications using robust tech:
+          - Java (Springboot) and Node/Express backends
+          - Javascript/React frontends
+          - Testing with Junit5, Mockito, Jest and Cypress
+          - MariaDB/MySQL databases
+          - Jenkins/Concourse deployment pipelines
+          - And more to come...
+      - layout: left
         title: Self
         link: github.com/sam0jones0
         sub_title: Self Manager
-        caption: August 2018 - Present
+        caption: August 2018 - September 2022
         quote: >
           Recovered(!) from health issues and focused on developing my technical skills.
         description: | # this will include new lines to allow paragraphs
