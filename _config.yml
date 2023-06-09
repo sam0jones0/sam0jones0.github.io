@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sam Jones
-title: Software Engineering Graduate at Sky
+title: Associate Software Engineer at Sky
 email: sam0jones0 ät ġmạíḷ ɗȯτ ƈóm
 #website: sam0jones0.github.io
 
@@ -48,15 +48,76 @@ linkedin_username: sam0jones0
 # about_title: About Me
 about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sam and I'm working on transforming tech into a force to create positive social change. My current strategy is focused on developing my tech skills/knowledge. I have a working background in software engineering across the stack.
+  Hi, my name's Sam and I’m working as a backend software engineer at Sky, building Scala microservices for content discovery recommenders. The tech I’m primarily working with at the moment is: <mark>Scala</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark> and <mark>Cassandra</mark>.
   
-  I'm an active proponent of <mark>Python</mark> - I love the development-speed and teach-ability power-up afforded by its readability and comprehensive standard library. The extension ecosystem is pretty great too.
+  I am a firm believer in utilizing technology as a powerful catalyst for fostering positive social change. Currently, my focus lies in honing my technical skills and expanding my knowledge. With a solid foundation in software engineering across various layers of the technology stack, I am well-equipped to contribute to the ongoing transformation of the industry.
+
   
-  My most recent personal projects include a <mark>BeautifulSoup</mark> powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
-  
-  I'm working as a software engineering graduate at Sky. The tech I'm currently working with is: <mark>Java</mark>, <mark>Spring</mark>, <mark>JavaScript</mark> and <mark>React</mark>
+  My most recent personal projects include a BeautifulSoup powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
 
 content:
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Sky
+        link: sky.com
+        sub_title: Associate Software Engineer
+        caption: February 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+          Develop and maintain <mark>Scala</mark> microservices for content discovery recommenders:
+          - Deploy in Kubernetes on <mark>GCP</mark> and <mark>AWS</mark>
+          - Set up and maintain <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
+          - Scala microservices read/write from/to Kafka and Cassandra
+          - Global high traffic scaling under strict performance constraints
+          - Test-driven development
+
+      - layout: left
+        title: Sky
+        link: sky.com
+        sub_title: Software Engineering Graduate
+        caption: September 2022 - February 2023
+        description: | # this will include new lines to allow paragraphs
+          Full stack application development in Java, JavaScript and React:
+          - <mark>Java</mark> (Springboot) and <mark>Node</mark> / <mark>Express</mark> backends
+          - <mark>Javascript</mark> / <mark>React</mark> frontends
+          - Testing with Junit5, Mockito, Jest and Cypress
+          - MariaDB/MySQL databases
+          - Jenkins/Concourse deployment pipelines
+          - And more to come...
+      - layout: left
+        title: Self
+        link: github.com/sam0jones0
+        sub_title: Self Manager
+        caption: August 2018 - September 2022
+        description: | # this will include new lines to allow paragraphs
+          Took a sabbatical for medical reasons from which I fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in <mark>Python</mark>](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [<mark>Django</mark> website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
+          - Unit/integration testing
+          - Penetration-testing/cyber security:
+            - OWASP Top Ten
+            - HackTheBox / TryHackMe / Metasploitable
+            - Kali Linux / ParrotOS
+          - Linux desktop/server administration
+          - GNU Core Utilities
+          - Git
+          - Open source software contributions
+          - [LeetCode](https://leetcode.com/sam0jones0/) / [Codewars](https://www.codewars.com/users/sam0jones0) programming challenges (click links for site profiles).
+      - layout: left
+        title: OptiCommerce
+        link: opticommerce.co.uk
+        sub_title: Project Manager
+        caption: March 2014 - August 2018
+        description: | # this will include new lines to allow paragraphs
+          Managed the development and ongoing maintenance of over 100 websites. Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
+
+          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
+          - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
+          - Automated several processes for Jira project management, requirements gathering and client feedback.
+          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
+          - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -93,60 +154,6 @@ content:
           This project is a response to the apparent scarcity of actively developed tools aimed at protecting against an individual's writing style betraying their identity.
           
           "The loss of an expectation of privacy can result in a chilling effect where individuals are too afraid to draw attention to a problem, because they fear being discovered and punished for their actions." -- Kacmarcik, G., & Gamon, M. (2006, July)
-      
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Sky
-        link: sky.com
-        sub_title: Software Engineering Graduate
-        caption: September 2022 - Present
-        quote: >
-          Full stack application development in Java, JavaScript and React
-        description: | # this will include new lines to allow paragraphs
-          Working in an Agile team to deliver reliable applications using robust tech:
-          - Java (Springboot) and Node/Express backends
-          - Javascript/React frontends
-          - Testing with Junit5, Mockito, Jest and Cypress
-          - MariaDB/MySQL databases
-          - Jenkins/Concourse deployment pipelines
-          - And more to come...
-      - layout: left
-        title: Self
-        link: github.com/sam0jones0
-        sub_title: Self Manager
-        caption: August 2018 - September 2022
-        quote: >
-          Recovered(!) from health issues and focused on developing my technical skills.
-        description: | # this will include new lines to allow paragraphs
-          I took a sabbatical for medical reasons from which I am fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in Python](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [Django website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
-          - Unit/integration testing
-          - Penetration-testing/cyber security:
-            - OWASP Top Ten
-            - HackTheBox / TryHackMe / Metasploitable
-            - Kali Linux / ParrotOS
-          - Linux desktop/server administration
-          - GNU Core Utilities
-          - Git
-          - Open source software contributions
-          - [LeetCode](https://leetcode.com/sam0jones0/) / [Codewars](https://www.codewars.com/users/sam0jones0) programming challenges (click links for site profiles).
-      - layout: left
-        title: OptiCommerce
-        link: opticommerce.co.uk
-        sub_title: Project Manager
-        caption: March 2014 - August 2018
-        quote: >
-          Managed the development and ongoing maintenance of over 100 websites.
-        description: | # this will include new lines to allow paragraphs
-          Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
-
-          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
-          - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
-          - Automated several processes for Jira project management, requirements gathering and client feedback.
-          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
-          - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
 
 
   - title: Education # Title for the section
