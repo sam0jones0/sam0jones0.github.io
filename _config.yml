@@ -48,9 +48,9 @@ linkedin_username: sam0jones0
 # about_title: About Me
 about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sam and I’m working as a backend software engineer at Sky, building Scala microservices for content discovery recommenders. The tech I’m primarily working with at the moment is: <mark>Scala</mark>, <mark>Kubernetes</mark>, <mark>Kafka</mark> and <mark>Cassandra</mark>.
+  Hi, my name's Sam and I’m working as a backend software engineer at Sky, building <mark>Scala</mark> microservices for content discovery recommenders. The tech I’m primarily working with at the moment is: <mark>Kubernetes</mark>, <mark>Kafka</mark> and <mark>Cassandra</mark>.
   
-  I am a firm believer in using technology to foster positive social change. Currently, my focus lies in honing my technical skills and expanding my knowledge. With a solid foundation in software engineering across various layers of the technology stack, I am well-equipped to contribute to the ongoing transformation of the industry.
+  I am a firm believer in using technology to foster positive social change. Currently, my focus lies in honing my technical skills and expanding my knowledge. With a solid foundation in software engineering across the stack, I am well-equipped to contribute to the ongoing transformation of the industry.
 
   My most recent personal projects include a BeautifulSoup powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
 
