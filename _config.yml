@@ -67,15 +67,20 @@ content:
         sub_title: Scala Developer
         caption: October 2023 - Present
         description: | # this will include new lines to allow paragraphs
-          
+          As below but... better
 
       - layout: left
         title: Sky
         link: sky.com
         sub_title: Associate Software Engineer
-        caption: February 2023 - Present
+        caption: February 2023 - October 2023
         description: | # this will include new lines to allow paragraphs
-          As below but... better?
+          Develop and maintain <mark>Scala</mark> microservices for content discovery recommenders:
+          - Deploy in Kubernetes on <mark>GCP</mark> and <mark>AWS</mark>
+          - Set up and maintain <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
+          - Scala microservices read/write from/to Kafka and Cassandra
+          - Global high traffic scaling under strict performance constraints
+          - Test-driven development
 
       - layout: left
         title: Sky
