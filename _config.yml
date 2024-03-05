@@ -68,8 +68,8 @@ content:
         caption: October 2023 - Present
         description: | # this will include new lines to allow paragraphs
           As below and...
-          - Migrating `Akka` microservices to the Cats `Typelevel` stack
-          - Migrating `Kamon` metrics and tracing to `OpenTelemetry` / otel4s 
+          - Migrating <mark>Akka</mark> microservices to the Cats <mark>Typelevel</mark> stack
+          - Migrating <mark>Kamon</mark> metrics and tracing to <mark>OpenTelemetry</mark> / otel4s 
           - Upgrading services from Scala 2 to Scala 3
 
       - layout: left
