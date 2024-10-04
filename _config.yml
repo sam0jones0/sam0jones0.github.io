@@ -18,16 +18,7 @@ darkmode: true
 #twitter_username: none
 github_username:  sam0jones0
 # stackoverflow_username: "00000001"
-# dribbble_username: none
-# facebook_username: none
-# flickr_username: none
-#instagram_username: none
 linkedin_username: sam0jones0
-# xing_username: none
-# pinterest_username: none
-# youtube_username: none
-# googleplus_username: +none
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 #additional_links:
@@ -46,31 +37,32 @@ linkedin_username: sam0jones0
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.webp
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Sam and I’m working as a backend software engineer at Sky, building <mark>Scala</mark> microservices for content discovery recommenders. The tech I’m primarily working with at the moment is: <mark>Kubernetes</mark>, <mark>Kafka</mark> and <mark>Cassandra</mark>.
+  Hello, I'm Sam, a backend software engineer at Sky. I specialise in building scalable <mark>Scala</mark> microservices for content discovery recommenders. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I am a firm believer in using technology to foster positive social change. Currently, my focus lies in honing my technical skills and expanding my knowledge. With a solid foundation in software engineering across the stack, I am well-equipped to contribute to the ongoing transformation of the industry.
+  I'm passionate about leveraging technology to drive positive social change and solve real-world problems. I thrive on challenges that push the boundaries of my technical expertise, always seeking to apply cutting-edge solutions to complex issues.
 
-  My most recent personal projects include a BeautifulSoup powered web-scraping price checker / notifier and an upcoming privacy focused anti-stylometry library.
+  Outside of work, I enjoy tackling meaningful personal projects. I'm currently developing SugarSentry, an ESP32-based portable blood glucose monitor for my fiancée, who has Type 1 diabetes.
 
 content:
-
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
       - layout: left
         title: Sky
         link: sky.com
         sub_title: Scala Developer
         caption: October 2023 - Present
         description: | # this will include new lines to allow paragraphs
-          As below and...
-          - Migrating <mark>Akka</mark> microservices to the Cats <mark>Typelevel</mark> stack
-          - Migrating <mark>Kamon</mark> metrics and tracing to <mark>OpenTelemetry</mark> / otel4s 
-          - Upgrading services from Scala 2 to Scala 3
+          Building and maintaining high-performance Scala microservices:
+          - Migrated <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, resulting in improved performance and maintainability
+          - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
+          - Upgrading services from Scala 2 to Scala 3, leveraging new language features
+          - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
+          - [Scaling services to handle record-breaking high-traffic events](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success)
+          - Implementing hexagonal architecture for improved modularity and testability
+          - Working with multi-tenant/region Kubernetes clusters across Europe/USA/Africa on EKS/GKE
+          - Utilising Istio service mesh for advanced traffic management and security
 
       - layout: left
         title: Sky
@@ -78,12 +70,12 @@ content:
         sub_title: Associate Software Engineer
         caption: February 2023 - October 2023
         description: | # this will include new lines to allow paragraphs
-          Develop and maintain <mark>Scala</mark> microservices for content discovery recommenders:
-          - Deploy in Kubernetes on <mark>GCP</mark> and <mark>AWS</mark>
-          - Set up and maintain <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
-          - Scala microservices read/write from/to Kafka and Cassandra
-          - Global high traffic scaling under strict performance constraints
-          - Test-driven development
+          Developed and maintained Scala microservices for content discovery recommenders:
+          - Deployed services in <mark>Kubernetes</mark> on <mark>GCP</mark> and <mark>AWS</mark>
+          - Set up and maintained <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
+          - Worked with <mark>Kafka</mark> and <mark>Cassandra</mark> for data processing and storage
+          - Optimised services for global high-traffic scenarios under strict performance constraints
+          - Practiced test-driven development to ensure code quality and reliability
 
       - layout: left
         title: Sky
@@ -91,115 +83,71 @@ content:
         sub_title: Software Engineering Graduate
         caption: September 2022 - February 2023
         description: | # this will include new lines to allow paragraphs
-          Full stack application development in Java, JavaScript and React:
-          - <mark>Java</mark> (Springboot) and <mark>Node</mark> / <mark>Express</mark> backends
-          - <mark>Javascript</mark> / <mark>React</mark> frontends
-          - Testing with Junit5, Mockito, Jest and Cypress
-          - MariaDB/MySQL databases
-          - Jenkins/Concourse deployment pipelines
-          - And more to come...
-      - layout: left
-        title: Self
-        link: github.com/sam0jones0
-        sub_title: Self Manager
-        caption: August 2018 - September 2022
-        description: | # this will include new lines to allow paragraphs
-          Took a sabbatical for medical reasons from which I fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in <mark>Python</mark>](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [<mark>Django</mark> website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
-          - Unit/integration testing
-          - Penetration-testing/cyber security:
-            - OWASP Top Ten
-            - HackTheBox / TryHackMe / Metasploitable
-            - Kali Linux / ParrotOS
-          - Linux desktop/server administration
-          - GNU Core Utilities
-          - Git
-          - Open source software contributions
-          - [LeetCode](https://leetcode.com/sam0jones0/) / [Codewars](https://www.codewars.com/users/sam0jones0) programming challenges (click links for site profiles).
-      - layout: left
-        title: OptiCommerce
-        link: opticommerce.co.uk
-        sub_title: Project Manager
-        caption: March 2014 - August 2018
-        description: | # this will include new lines to allow paragraphs
-          Managed the development and ongoing maintenance of over 100 websites. Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
-
-          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
-          - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
-          - Automated several processes for Jira project management, requirements gathering and client feedback.
-          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
-          - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
+          Full-stack application development across various technologies:
+          - Built backends using <mark>Java</mark> (Spring Boot) and <mark>Node.js</mark> / <mark>Express</mark>
+          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>
+          - Implemented comprehensive testing strategies using JUnit5, Mockito, Jest, and Cypress
+          - Worked with MariaDB/MySQL databases
+          - Managed Jenkins/Concourse deployment pipelines
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle  
+        title: SugarSentry
+        link: github.com/sam0jones0/SugarSentry
+        additional_links:
+          - title:  sam0jones0/SugarSentry
+            icon: "#icon-github"
+            url: github.com/sam0jones0/SugarSentry
+        quote: >
+          ESP32-based portable blood glucose monitor with e-ink display, utilizing Dexcom API and environmental sensors.
+        description: | # this will include new lines to allow paragraphs
+          SugarSentry is an ongoing project that combines software and hardware to create a practical health monitoring device:
+          
+          - Developed in <mark>C++</mark> for the ESP32 platform, optimised for low power consumption
+          - Integrates with Dexcom API to display real-time blood glucose levels and historical data
+          - Incorporates BME280 and VCNL4040 sensors for environmental monitoring
+          - Features an e-ink display for long battery life and an RGB LED for nighttime use
+          - Demonstrates skills in embedded systems, API integration, and hardware interfacing
+
       - layout: top-middle
-#        border: weak
         title: Amazon Wishlist Pricewatch
         link: github.com/sam0jones0/amazon_wishlist_pricewatch
-        # link_text: Project Website
         additional_links:
           - title:  sam0jones0/amazon_wishlist_pricewatch
             icon: "#icon-github"
             url: github.com/sam0jones0/amazon_wishlist_pricewatch
         quote: >
-          Periodically check your public Amazon wishlist for price reductions.
+          A Python tool to monitor your public Amazon wishlist for price reductions.
         description: | # this will include new lines to allow paragraphs
-          I started this project to learn more about web scraping with Python and BeautifulSoupwhile also getting some experience with the Python packaging ecosystem... and perhaps to find a few bargains in the process.
+          This project was an exploration into web scraping with Python and BeautifulSoup, while also gaining experience with the Python packaging ecosystem.
           
-          It has good test coverage with <mark>pytest</mark>. Typed and checked with <mark>mypy</mark>. All code is concisely documented with Google style docstrings.
-          
-          It's doesn't feel as good to make something people won't use, so I put a fair amount of time into the readme and installation flow.
+          Key features:
+          - Comprehensive test coverage using <mark>pytest</mark>
+          - Static type checking with <mark>mypy</mark>
+          - Concise documentation using Google-style docstrings
+          - User-friendly README and streamlined installation process
+
       - layout: top-middle
         title: PyAntiStylometry
         link: https://github.com/sam0jones0/pyantistylometry
-        # link_text: Project Website
         additional_links:
           - title: sam0jones0/pyantistylometry
             icon: "#icon-github"
             url: github.com/sam0jones0/pyantistylometry
         quote: >
-          A project exploring the feasibility of an automated and extensible anti-stylometry tool written in Python.
+          An automated and extensible anti-stylometry tool written in Python, exploring the intersection of privacy and natural language processing.
         description: | # this will include new lines to allow paragraphs
-          Privacy is an increasingly urgent concern with worrying implications for society[<sup>1</sup>](https://www.socialcooling.com/). Thankfully, awareness is growing and more people are taking steps to preserve their digital privacy as evidenced by the rising popularity of VPN software or the introduction of the recent GDPR regulations.
+          In an era where digital privacy is increasingly crucial, this project addresses the need for tools that protect an individual's writing style from identification.
           
-          This project is a response to the apparent scarcity of actively developed tools aimed at protecting against an individual's writing style betraying their identity.
-          
-          "The loss of an expectation of privacy can result in a chilling effect where individuals are too afraid to draw attention to a problem, because they fear being discovered and punished for their actions." -- Kacmarcik, G., & Gamon, M. (2006, July)
-
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Portsmouth University
-        caption: 2009 - 2012
-        sub_title: BSc Psychology
-#        quote: >
-#          none
-        description: | # this will include new lines to allow paragraphs
-          During my time studying psychology at Portsmouth I spent a lot of time analysing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
-          
-          My dissertation was a study exploring differences in communication efficiency between face-to-face and virtual (think webcam-to-webcam meetings) information sharing. 
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my interests and hobbies outside of cyberspace are:
-      - Getting out into nature
-      - Gaming
-      - Audio hardware
-      - Reading Sci-fi/Fantasy books
-      
-      Some Recommended Books:
-      - Malazan Book of the Fallen (!)
-      - Neuromancer
-      - World War Z
-      - Dune
-      - The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World
+          The project aims to:
+          - Implement various anti-stylometry techniques
+          - Provide an extensible framework for future enhancements
+          - Raise awareness about the importance of linguistic privacy
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
