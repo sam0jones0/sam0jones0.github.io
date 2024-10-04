@@ -93,34 +93,29 @@ content:
       - layout: left
         title: Self
         link: github.com/sam0jones0
-        sub_title: Self Manager
+        sub_title: Independent Developer
         caption: August 2018 - September 2022
-        description: | # this will include new lines to allow paragraphs
-          Took a sabbatical for medical reasons from which I fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in <mark>Python</mark>](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [<mark>Django</mark> website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
-          - Unit/integration testing
-          - Penetration-testing/cyber security:
-            - OWASP Top Ten
-            - HackTheBox / TryHackMe / Metasploitable
-            - Kali Linux / ParrotOS
-          - Linux desktop/server administration
-          - GNU Core Utilities
-          - Git
-          - Open source software contributions
-          - [LeetCode](https://leetcode.com/sam0jones0/) / [Codewars](https://www.codewars.com/users/sam0jones0) programming challenges (click links for site profiles).
-          
+        description: | 
+          Took time for personal development and deep-dive into technical learning:
+          - Honed skills in [<mark>Python</mark> programming](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-oriented design patterns](https://github.com/sam0jones0/oo-design), and [<mark>Django</mark> web development](https://github.com/sam0jones0/learning_log_django)
+          - Explored unit/integration testing methodologies
+          - Delved into cybersecurity, including OWASP Top Ten, HackTheBox, and Kali Linux
+          - Sharpened Linux administration skills and mastered GNU Core Utilities
+          - Contributed to open-source projects and tackled programming challenges on [LeetCode](https://leetcode.com/sam0jones0/) and [Codewars](https://www.codewars.com/users/sam0jones0)
+
       - layout: left
         title: OptiCommerce
         link: opticommerce.co.uk
         sub_title: Project Manager
         caption: March 2014 - August 2018
-        description: | # this will include new lines to allow paragraphs
-          Managed the development and ongoing maintenance of over 100 websites. Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
-
-          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
-          - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
-          - Automated several processes for Jira project management, requirements gathering and client feedback.
-          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
-          - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
+        description: | 
+          Orchestrated the development and maintenance of over 100 websites:
+          - Coordinated a cross-functional team using <mark>Jira</mark> and <mark>agile</mark> methodologies
+          - Optimised server load balancing and managed DNS for all digital properties
+          - Conducted web application security testing to ensure robust defences
+          - Automated project management processes, enhancing efficiency and meeting tight deadlines
+          - Ensured adherence to web accessibility standards and brand guidelines
+          - Crafted and executed email marketing campaigns using Infusionsoft CRM
 
   - title: Projects
     layout: list
@@ -177,33 +172,31 @@ content:
           - Implements various anti-stylometry techniques
           - Provides an extensible framework for future enhancements
           - Raises awareness about the importance of linguistic privacy
-          -Balances ethical considerations with technical implementation
+          - Balances ethical considerations with technical implementation
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Portsmouth University
         caption: 2009 - 2012
         sub_title: BSc Psychology
-#        quote: >
-#          none
-        description: | # this will include new lines to allow paragraphs
-          During my time studying psychology at Portsmouth I spent a lot of time analysing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
+        description: |
+          My psychology studies at Portsmouth honed my skills in analysing human behaviour and quantifying interactions, providing valuable insights into how people engage with systems. This understanding is crucial in today's software-integrated world, where usability is paramount.
           
-          My dissertation was a study exploring differences in communication efficiency between face-to-face and virtual (think webcam-to-webcam meetings) information sharing. 
+          My dissertation explored the efficiency of information sharing in face-to-face versus virtual (webcam-to-webcam) communication, a topic that has become increasingly relevant in our digital age.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my interests and hobbies outside of cyberspace are:
-      - Getting out into nature
-      - Gaming
-      - Audio hardware
-      - Reading Sci-fi/Fantasy books
+    content: |
+      Outside of cyberspace, you might find me:
+      - Exploring the great outdoors
+      - Enjoying a good PC game
+      - Tinkering with audio hardware
+      - Getting lost in a good Sci-fi or Fantasy novel
       
-      Some Recommended Books:
-      - Malazan Book of the Fallen (!)
+      Some books I'd recommend:
+      - Malazan Book of the Fallen (an epic journey!)
       - Neuromancer
       - World War Z
       - Dune
