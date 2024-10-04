@@ -139,23 +139,6 @@ content:
           - Incorporates BME280 and VCNL4040 sensors for environmental monitoring
           - Features battery-powered operation with recharging circuits for enhanced portability
           - Demonstrates skills in embedded systems, API integration, and hardware interfacing
-          
-      - layout: top-middle
-        title: Amazon Wishlist Pricewatch
-        link: github.com/sam0jones0/amazon_wishlist_pricewatch
-        additional_links:
-          - title:  sam0jones0/amazon_wishlist_pricewatch
-            icon: "#icon-github"
-            url: github.com/sam0jones0/amazon_wishlist_pricewatch
-        quote: >
-          A Python tool to monitor your public Amazon wishlist for price reductions.
-        description: |
-          This project showcases proficiency in web data extraction using Python and BeautifulSoup, while also highlighting experience with the Python packaging ecosystem:
-          
-          - Comprehensive test coverage using <mark>pytest</mark>
-          - Static type checking with <mark>mypy</mark>
-          - Concise documentation using Google-style docstrings
-          - User-friendly README and streamlined installation process
 
       - layout: top-middle
         title: PyAntiStylometry
@@ -173,6 +156,23 @@ content:
           - Provides an extensible framework for future enhancements
           - Raises awareness about the importance of linguistic privacy
           - Balances ethical considerations with technical implementation
+
+      - layout: top-middle
+        title: Amazon Wishlist Pricewatch
+        link: github.com/sam0jones0/amazon_wishlist_pricewatch
+        additional_links:
+          - title:  sam0jones0/amazon_wishlist_pricewatch
+            icon: "#icon-github"
+            url: github.com/sam0jones0/amazon_wishlist_pricewatch
+        quote: >
+          A Python tool to monitor your public Amazon wishlist for price reductions.
+        description: |
+          This project showcases proficiency in web data extraction using Python and BeautifulSoup, while also highlighting experience with the Python packaging ecosystem:
+          
+          - Comprehensive test coverage using <mark>pytest</mark>
+          - Static type checking with <mark>mypy</mark>
+          - Concise documentation using Google-style docstrings
+          - User-friendly README and streamlined installation process
 
   - title: Education
     layout: list
