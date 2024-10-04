@@ -37,6 +37,7 @@ linkedin_username: sam0jones0
 
 # About Section
 # about_title: About Me
+about_profile_image: images/profile.webp
 about_content: |
   Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. I work across multiple streaming platforms, notably Peacock. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
