@@ -42,7 +42,7 @@ about_content: |
   
   I like the challenge of applying technology to crack complex problems that spark positive change. I thrive on pushing the boundaries of my technical expertise, always hunting for that elegant solution to real-world puzzles.
 
- When I'm not wrangling code at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
+  When I'm not wrangling code at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
 
 content:
   - title: Experience
@@ -55,7 +55,7 @@ content:
         caption: October 2023 - Present
         description: |
           Building and maintaining high-performance Scala microservices:
-          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, because who doesn't like a bit of Type Tetris.
+          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, because who doesn't like a bit of Type Tetris?
           - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
           - Upgrading services from Scala 2 to Scala 3
           - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
@@ -85,7 +85,7 @@ content:
         description: |
           Full-stack application development across various technologies:
           - Built backends using <mark>Java</mark> (Spring Boot) and <mark>Node.js</mark> / <mark>Express</mark>
-          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>, making UIs that spark joy.
+          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>, making UIs that spark joy
           - Implemented comprehensive testing strategies using JUnit5, Mockito, Jest, and Cypress
           - Worked with MariaDB/MySQL databases
           - Managed Jenkins/Concourse deployment pipelines
