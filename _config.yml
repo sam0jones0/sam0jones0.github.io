@@ -37,25 +37,25 @@ linkedin_username: sam0jones0
 
 # About Section
 # about_title: About Me
-about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm Sam, a backend software engineer at Sky. I specialise in building scalable <mark>Scala</mark> microservices for content discovery recommenders. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
+about_content: |
+  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I'm passionate about leveraging technology to drive positive social change and solve real-world problems. I thrive on challenges that push the boundaries of my technical expertise, always seeking to apply cutting-edge solutions to complex issues.
+  I'm passionate about leveraging technology to solve complex problems and drive positive change. I thrive on challenges that push the boundaries of my technical expertise, always seeking to apply innovative solutions to real-world issues.
 
-  Outside of work, I enjoy tackling meaningful personal projects. I'm currently developing SugarSentry, an ESP32-based portable blood glucose monitor for my fiancée, who has Type 1 diabetes.
+  Outside of work, I enjoy tackling meaningful personal projects. Currently, I'm developing SugarSentry, an ESP32-based portable blood glucose monitor for my fiancée, who has Type 1 diabetes.
 
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Sky
         link: sky.com
         sub_title: Scala Developer
         caption: October 2023 - Present
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Building and maintaining high-performance Scala microservices:
-          - Migrated <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, resulting in improved performance and maintainability
+          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, improving performance and maintainability
           - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
           - Upgrading services from Scala 2 to Scala 3, leveraging new language features
           - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
@@ -69,7 +69,7 @@ content:
         link: sky.com
         sub_title: Associate Software Engineer
         caption: February 2023 - October 2023
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Developed and maintained Scala microservices for content discovery recommenders:
           - Deployed services in <mark>Kubernetes</mark> on <mark>GCP</mark> and <mark>AWS</mark>
           - Set up and maintained <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
@@ -82,7 +82,7 @@ content:
         link: sky.com
         sub_title: Software Engineering Graduate
         caption: September 2022 - February 2023
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Full-stack application development across various technologies:
           - Built backends using <mark>Java</mark> (Spring Boot) and <mark>Node.js</mark> / <mark>Express</mark>
           - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>
@@ -90,8 +90,8 @@ content:
           - Worked with MariaDB/MySQL databases
           - Managed Jenkins/Concourse deployment pipelines
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle  
         title: SugarSentry
@@ -101,8 +101,8 @@ content:
             icon: "#icon-github"
             url: github.com/sam0jones0/SugarSentry
         quote: >
-          ESP32-based portable blood glucose monitor with e-ink display, utilizing Dexcom API and environmental sensors.
-        description: | # this will include new lines to allow paragraphs
+          ESP32-based portable blood glucose monitor with e-ink display, utilising Dexcom API and environmental sensors.
+        description: |
           SugarSentry is an ongoing project that combines software and hardware to create a practical health monitoring device:
           
           - Developed in <mark>C++</mark> for the ESP32 platform, optimised for low power consumption
@@ -120,10 +120,9 @@ content:
             url: github.com/sam0jones0/amazon_wishlist_pricewatch
         quote: >
           A Python tool to monitor your public Amazon wishlist for price reductions.
-        description: | # this will include new lines to allow paragraphs
-          This project was an exploration into web scraping with Python and BeautifulSoup, while also gaining experience with the Python packaging ecosystem.
+        description: |
+          This project showcases web scraping with Python and BeautifulSoup, while also demonstrating experience with the Python packaging ecosystem:
           
-          Key features:
           - Comprehensive test coverage using <mark>pytest</mark>
           - Static type checking with <mark>mypy</mark>
           - Concise documentation using Google-style docstrings
@@ -138,13 +137,12 @@ content:
             url: github.com/sam0jones0/pyantistylometry
         quote: >
           An automated and extensible anti-stylometry tool written in Python, exploring the intersection of privacy and natural language processing.
-        description: | # this will include new lines to allow paragraphs
-          In an era where digital privacy is increasingly crucial, this project addresses the need for tools that protect an individual's writing style from identification.
+        description: |
+          This project addresses the need for tools that protect an individual's writing style from identification in an era of increasing digital privacy concerns:
           
-          The project aims to:
-          - Implement various anti-stylometry techniques
-          - Provide an extensible framework for future enhancements
-          - Raise awareness about the importance of linguistic privacy
+          - Implements various anti-stylometry techniques
+          - Provides an extensible framework for future enhancements
+          - Raises awareness about the importance of linguistic privacy
 
 # Footer
 footer_show_references: true
