@@ -40,7 +40,7 @@ linkedin_username: sam0jones0
 about_content: |
   Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current (professional) tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I like the challenge of applying technology to crack complex problems that spark positive change. I thrive on pushing the boundaries of my technical expertise, always hunting for that elegant solution to real-world puzzles.
+  I like the challenge of applying technology to crack complex problems that spark positive change. Thriving on pushing the boundaries of my technical expertise, always hunting for that elegant solution to real-world puzzles.
 
   When I'm not wrangling code at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
 
