@@ -90,6 +90,38 @@ content:
           - Worked with MariaDB/MySQL databases
           - Managed Jenkins/Concourse deployment pipelines
 
+      - layout: left
+        title: Self
+        link: github.com/sam0jones0
+        sub_title: Self Manager
+        caption: August 2018 - September 2022
+        description: | # this will include new lines to allow paragraphs
+          Took a sabbatical for medical reasons from which I fully recovered. During this time I took the opportunity to drill down on technical learning and projects, including: [Programming in <mark>Python</mark>](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-orientated design patterns](https://github.com/sam0jones0/oo-design), [<mark>Django</mark> website development](https://github.com/sam0jones0/learning_log_django) (click the links to see the associated repo) and more:
+          - Unit/integration testing
+          - Penetration-testing/cyber security:
+            - OWASP Top Ten
+            - HackTheBox / TryHackMe / Metasploitable
+            - Kali Linux / ParrotOS
+          - Linux desktop/server administration
+          - GNU Core Utilities
+          - Git
+          - Open source software contributions
+          - [LeetCode](https://leetcode.com/sam0jones0/) / [Codewars](https://www.codewars.com/users/sam0jones0) programming challenges (click links for site profiles).
+          
+      - layout: left
+        title: OptiCommerce
+        link: opticommerce.co.uk
+        sub_title: Project Manager
+        caption: March 2014 - August 2018
+        description: | # this will include new lines to allow paragraphs
+          Managed the development and ongoing maintenance of over 100 websites. Responsible for co-ordinating a team of developers, designers and PPC executives to produce bespoke websites based on client requirements using <mark>Jira</mark>.
+
+          Monitored the business's web/email server admin panel e.g. ensuring server load balancing was adjusted as necessary, managed DNS (domain transfer and ongoing admin) for all websites, performed web application security testing of digital properties and servers.
+          - Became a proficient Jira administrator, employing <mark>agile</mark> project management methods to save management time and meet strict project deadlines.
+          - Automated several processes for Jira project management, requirements gathering and client feedback.
+          - Ensured web usability/accessibility standards and brand design guidelines were adhered to.
+          - Produced copy for and set-up email marketing campaigns run through Infusionsoft CRM software.
+
   - title: Projects
     layout: list
     content:
@@ -146,6 +178,36 @@ content:
           - Provides an extensible framework for future enhancements
           - Raises awareness about the importance of linguistic privacy
           -Balances ethical considerations with technical implementation
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Portsmouth University
+        caption: 2009 - 2012
+        sub_title: BSc Psychology
+#        quote: >
+#          none
+        description: | # this will include new lines to allow paragraphs
+          During my time studying psychology at Portsmouth I spent a lot of time analysing humans and quantifying their behaviours for statistical analysis, gaining useful insights on how people interact with systems. Usability of software systems is particularly critical considering how tightly integrated humans and software are in modern life.
+          
+          My dissertation was a study exploring differences in communication efficiency between face-to-face and virtual (think webcam-to-webcam meetings) information sharing. 
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Some of my interests and hobbies outside of cyberspace are:
+      - Getting out into nature
+      - Gaming
+      - Audio hardware
+      - Reading Sci-fi/Fantasy books
+      
+      Some Recommended Books:
+      - Malazan Book of the Fallen (!)
+      - Neuromancer
+      - World War Z
+      - Dune
+      - The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World
 
 # Footer
 footer_show_references: true
