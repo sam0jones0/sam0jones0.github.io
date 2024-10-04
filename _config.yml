@@ -40,9 +40,9 @@ linkedin_username: sam0jones0
 about_content: |
   Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I'm passionate about leveraging technology to solve complex problems and drive positive change. I thrive on challenges that push the boundaries of my technical expertise, always seeking to apply innovative solutions to real-world issues.
+  I'm driven by the challenge of applying technology to solve complex problems and create positive change. I thrive on pushing the boundaries of my technical expertise, always seeking innovative solutions to real-world issues.
 
-  Outside of work, I enjoy tackling meaningful personal projects. Currently, I'm developing SugarSentry, an ESP32-based portable blood glucose monitor for my fiancée, who has Type 1 diabetes.
+  Outside of work, I enjoy tackling meaningful personal projects. Currently, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée, who has Type 1 diabetes.
 
 content:
   - title: Experience
@@ -101,16 +101,17 @@ content:
             icon: "#icon-github"
             url: github.com/sam0jones0/SugarSentry
         quote: >
-          ESP32-based portable blood glucose monitor with e-ink display, utilising Dexcom API and environmental sensors.
+          ESP32-based ambient blood glucose visualisation device with e-ink display, utilising Dexcom API and environmental sensors.
         description: |
-          SugarSentry is an ongoing project that combines software and hardware to create a practical health monitoring device:
+          SugarSentry is an ongoing project that combines software and hardware to create a stylish and practical health monitoring device:
           
-          - Developed in <mark>C++</mark> for the ESP32 platform, optimised for low power consumption
-          - Integrates with Dexcom API to display real-time blood glucose levels and historical data
+          - Developed in <mark>C++</mark> for the ESP32 platform, highly optimised for power efficiency
+          - Integrates with Dexcom API to display real-time blood glucose levels and historical data on an e-ink screen
+          - Designed as a bedside/desktop ambient display for convenient glucose level monitoring
           - Incorporates BME280 and VCNL4040 sensors for environmental monitoring
-          - Features an e-ink display for long battery life and an RGB LED for nighttime use
+          - Features battery-powered operation with recharging circuits for enhanced portability
           - Demonstrates skills in embedded systems, API integration, and hardware interfacing
-
+          
       - layout: top-middle
         title: Amazon Wishlist Pricewatch
         link: github.com/sam0jones0/amazon_wishlist_pricewatch
