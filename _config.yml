@@ -38,39 +38,39 @@ linkedin_username: sam0jones0
 # About Section
 # about_title: About Me
 about_content: |
-  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current (professional) tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
+  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. I work across multiple streaming platforms, notably Peacock. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I like the challenge of applying technology to crack complex problems that spark positive change. Thriving on pushing the boundaries of my technical expertise, always hunting for that elegant solution to real-world puzzles.
+  I thrive on applying technology to crack complex problems that spark positive change. I'm always keen to push the boundaries of my technical expertise, hunting for elegant solutions to real-world puzzles.
 
-  When I'm not wrangling code at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
+  When I'm not wrangling code, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
 
 content:
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Sky
+        title: Sky (NBCU)
         link: sky.com
         sub_title: Scala Developer
         caption: October 2023 - Present
         description: |
-          Building and maintaining high-performance Scala microservices:
+          Building and maintaining high-performance Scala microservices for major streaming platforms including Peacock, Sky TV, Showmax, and Showtime:
           - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, because who doesn't like a bit of Type Tetris?
           - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
           - Upgrading services from Scala 2 to Scala 3
           - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
-          - [Scaling services to handle record-breaking high-traffic events](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success)
+          - Scaling services to handle [record-breaking](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success) high-traffic events
           - Implementing hexagonal architecture for improved modularity and testability
           - Wrangling multi-tenant/region Kubernetes clusters across Europe/USA/Africa on EKS/GKE
           - Utilising Istio service mesh for advanced traffic management and security
 
       - layout: left
-        title: Sky
+        title: Sky (NBCU)
         link: sky.com
         sub_title: Associate Software Engineer
         caption: February 2023 - October 2023
         description: |
-          Developed and maintained Scala microservices for content discovery recommenders:
+          Developed and maintained Scala microservices for content discovery recommenders across multiple streaming platforms:
           - Deployed services in <mark>Kubernetes</mark> on <mark>GCP</mark> and <mark>AWS</mark>
           - Set up and maintained <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
           - Worked with <mark>Kafka</mark> and <mark>Cassandra</mark> for data processing and storage
