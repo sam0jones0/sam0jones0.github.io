@@ -38,11 +38,11 @@ linkedin_username: sam0jones0
 # About Section
 # about_title: About Me
 about_content: |
-  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
+  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. My current (professional) tech stack includes <mark>Kubernetes</mark>, <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
   
-  I'm driven by the challenge of applying technology to solve complex problems and create positive change. I thrive on pushing the boundaries of my technical expertise, always seeking innovative solutions to real-world issues.
+  I like the challenge of applying technology to crack complex problems that spark positive change. I thrive on pushing the boundaries of my technical expertise, always hunting for that elegant solution to real-world puzzles.
 
-  Outside of work, I enjoy tackling meaningful personal projects. Currently, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée, who has Type 1 diabetes.
+ When I'm not wrangling code at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
 
 content:
   - title: Experience
@@ -55,13 +55,13 @@ content:
         caption: October 2023 - Present
         description: |
           Building and maintaining high-performance Scala microservices:
-          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, improving performance and maintainability
+          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack, because who doesn't like a bit of Type Tetris.
           - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
-          - Upgrading services from Scala 2 to Scala 3, leveraging new language features
+          - Upgrading services from Scala 2 to Scala 3
           - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
           - [Scaling services to handle record-breaking high-traffic events](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success)
           - Implementing hexagonal architecture for improved modularity and testability
-          - Working with multi-tenant/region Kubernetes clusters across Europe/USA/Africa on EKS/GKE
+          - Wrangling multi-tenant/region Kubernetes clusters across Europe/USA/Africa on EKS/GKE
           - Utilising Istio service mesh for advanced traffic management and security
 
       - layout: left
@@ -85,7 +85,7 @@ content:
         description: |
           Full-stack application development across various technologies:
           - Built backends using <mark>Java</mark> (Spring Boot) and <mark>Node.js</mark> / <mark>Express</mark>
-          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>
+          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>, making UIs that spark joy.
           - Implemented comprehensive testing strategies using JUnit5, Mockito, Jest, and Cypress
           - Worked with MariaDB/MySQL databases
           - Managed Jenkins/Concourse deployment pipelines
