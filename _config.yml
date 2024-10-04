@@ -106,6 +106,7 @@ content:
           SugarSentry is an ongoing project that combines software and hardware to create a stylish and practical health monitoring device:
           
           - Developed in <mark>C++</mark> for the ESP32 platform, highly optimised for power efficiency
+          - Leverages low-power design principles for extended battery life
           - Integrates with Dexcom API to display real-time blood glucose levels and historical data on an e-ink screen
           - Designed as a bedside/desktop ambient display for convenient glucose level monitoring
           - Incorporates BME280 and VCNL4040 sensors for environmental monitoring
@@ -122,7 +123,7 @@ content:
         quote: >
           A Python tool to monitor your public Amazon wishlist for price reductions.
         description: |
-          This project showcases web scraping with Python and BeautifulSoup, while also demonstrating experience with the Python packaging ecosystem:
+          This project showcases proficiency in web data extraction using Python and BeautifulSoup, while also highlighting experience with the Python packaging ecosystem:
           
           - Comprehensive test coverage using <mark>pytest</mark>
           - Static type checking with <mark>mypy</mark>
@@ -144,6 +145,7 @@ content:
           - Implements various anti-stylometry techniques
           - Provides an extensible framework for future enhancements
           - Raises awareness about the importance of linguistic privacy
+          -Balances ethical considerations with technical implementation
 
 # Footer
 footer_show_references: true
