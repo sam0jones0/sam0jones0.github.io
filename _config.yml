@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Sam Jones
 title: Scala Developer at Sky
-email: sam0jones0 ät ġmạíḷ ɗȯτ ƈóm
+email: sam0jones0@gmail.com
 #website: sam0jones0.github.io
 
 # Dark Mode (true/false/never)
@@ -39,13 +39,18 @@ linkedin_username: sam0jones0
 # about_title: About Me
 about_profile_image: images/profile.webp
 about_content: |
-  Hello, I'm Sam, a backend software engineer at Sky specialising in scalable <mark>Scala</mark> microservices for content discovery recommenders. I work across multiple streaming platforms, notably Peacock. My current tech stack includes <mark>Kubernetes</mark> (AWS/GCP), <mark>Kafka</mark>, <mark>Cassandra</mark>, and [<mark>Cats Effect</mark>](https://typelevel.org/cats-effect/).
-  
-  I thrive on hard problems. I'm always keen to push the boundaries of my technical expertise, hunting for clear and simple solutions to real-world problems.
+  Backend software engineer at Sky (NBCU) specialising in functional Scala ([Typelevel](https://typelevel.org/)). Building and operating high-throughput microservices on Kubernetes (EKS/GKE) for content discovery/recommendations across Peacock and other Sky/NBCU streaming platforms, with Kafka event streaming and Cassandra persistence. Strong focus on performance tuning, observability, and distributed systems.
 
-  When I'm not at work, I'm usually tinkering away on some personal project. Right now, I'm developing SugarSentry, an ESP32-based ambient blood glucose visualisation device for my fiancée. It's my way of hacking her (extremely demanding) diabetes management, if even just a little.
+  Current side project: [SugarSentry](https://github.com/sam0jones0/SugarSentry) - an ESP32-based IoT device for real-time blood glucose visualisation.
+
+  London, UK. Right to work in the UK.
 
 content:
+  - title: Key Skills
+    layout: text
+    content: |
+      Scala 3 (Typelevel: Cats Effect, FS2, Tapir), Kafka, Cassandra, Kubernetes (EKS/GKE), AWS/GCP, OpenTelemetry, ArgoCD/Argo Rollouts, Istio, performance profiling (JFR/JMC).
+
   - title: Experience
     layout: list
     content:
@@ -55,14 +60,11 @@ content:
         sub_title: Scala Developer II
         caption: November 2025 - Present
         description: |
-          Promoted within the same department to Scala Developer II, taking on expanded responsibilities for high‑performance Scala microservices across Peacock, Sky TV, Showmax, and Showtime:
-          - Full ownership of a core orchestration service that assembles personalised content rails by coordinating downstream ML models, serving millions of users
-          - Performance tuning with <mark>JDK Flight Recorder</mark> and <mark>Mission Control</mark> to cut garbage allocations and increase throughput
-          - Managing migration from <mark>GCP</mark> to <mark>AWS</mark>, wrangling infrastructure and multi‑region Kubernetes clusters
-          - Implemented resilient deployments with <mark>Argo Rollouts</mark> (canary/blue‑green)
-          - Ran internal hackathons using <mark>LLM</mark> tools to speed up debugging and support queries
-          - Provided active "event center" monitoring during high‑profile events (NFL Wild Card games)
-          - Deepened expertise in <mark>Scala 3</mark>, <mark>Cats Effect</mark>, and the <mark>Typelevel</mark> ecosystem
+          - Service owner for a core orchestration service assembling recommendation rails across Peacock, Sky TV and Showmax; accountable for SLOs (uptime/error/latency) and live-event on-call operations
+          - Reduced per-page entity filtering/business-logic p99 from 50ms → 10ms while processing ~1M entities/page by profiling with JFR/JMC and removing allocation hotspots (lower GC pressure)
+          - Improved end-to-end page assembly/orchestration p99 from 300ms @ 50 pages/sec/pod to 250ms @ 100 pages/sec/pod by heap tuning and bounded thread pools after saturating downstream HTTP/2 calls to ML recommenders
+          - Parallelised + batched rail assembly so 100 rails adds <10ms vs single-rail requests
+          - Implemented progressive delivery with Argo Rollouts (canary/blue-green)
 
       - layout: left
         title: Sky (NBCU)
@@ -70,15 +72,10 @@ content:
         sub_title: Scala Developer
         caption: October 2023 - November 2025
         description: |
-          Building and maintaining high-performance Scala microservices for major streaming platforms including Peacock, Sky TV, Showmax, and Showtime:
-          - Migrating <mark>Akka</mark> microservices to the <mark>Cats Typelevel</mark> stack
-          - Implementing <mark>OpenTelemetry</mark> (Otel4s) for distributed tracing, enhancing observability
-          - Upgrading services from Scala 2 to Scala 3
-          - Rewriting Akka HTTP/Streams services to <mark>Tapir</mark>/<mark>FS2 Streams</mark>
-          - Scaling services to handle [record-breaking](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success) high-traffic events
-          - Implementing hexagonal architecture for improved modularity and testability
-          - Wrangling multi-tenant/region Kubernetes clusters across Europe/USA/Africa on EKS/GKE
-          - Utilising Istio service mesh for advanced traffic management and security
+          - Migrated production services from Akka to Typelevel (Cats Effect, FS2, Tapir), improving change lead time and long-term maintainability
+          - Implemented OpenTelemetry tracing (otel4s) to improve incident triage across service boundaries and protect SLOs
+          - Operated multi-region Kubernetes deployments (EKS/GKE) and configured Istio traffic policies (timeouts, retries, outlier detection)
+          - Supported [peak live-event traffic](https://www.nbcuniversal.com/article/peacock-continues-growth-after-nfl-wild-card-game-success) across Peacock, Sky TV, Showmax (performance + on-call)
 
       - layout: left
         title: Sky (NBCU)
@@ -86,12 +83,9 @@ content:
         sub_title: Associate Software Engineer
         caption: February 2023 - October 2023
         description: |
-          Developed and maintained Scala microservices for content discovery recommenders across multiple streaming platforms:
-          - Deployed services in <mark>Kubernetes</mark> on <mark>GCP</mark> and <mark>AWS</mark>
-          - Set up and maintained <mark>Jenkins</mark> and <mark>ArgoCD</mark> CI/CD pipelines
-          - Worked with <mark>Kafka</mark> and <mark>Cassandra</mark> for data processing and storage
-          - Optimised services for global high-traffic scenarios under strict performance constraints
-          - Practiced test-driven development to ensure code quality and reliability
+          - Deployed Scala microservices in Kubernetes on GCP and AWS
+          - Set up Jenkins and ArgoCD CI/CD pipelines
+          - Worked with Kafka and Cassandra for event-driven data processing
 
       - layout: left
         title: Sky
@@ -99,25 +93,17 @@ content:
         sub_title: Software Engineering Graduate
         caption: September 2022 - February 2023
         description: |
-          Full-stack application development across various technologies:
-          - Built backends using <mark>Java</mark> (Spring Boot) and <mark>Node.js</mark> / <mark>Express</mark>
-          - Developed frontends with <mark>JavaScript</mark> / <mark>React</mark>, making UIs that spark joy
-          - Implemented comprehensive testing strategies using JUnit5, Mockito, Jest, and Cypress
-          - Worked with MariaDB/MySQL databases
-          - Managed Jenkins/Concourse deployment pipelines
+          - Built backends using Java (Spring Boot) and Node.js
+          - Developed frontends with JavaScript / React
+          - Implemented testing with JUnit5, Mockito, Jest, and Cypress
 
       - layout: left
-        title: Self
+        title: Career Change
         link: github.com/sam0jones0
-        sub_title: Independent Developer
+        sub_title: Self-Directed CS Study
         caption: August 2018 - September 2022
         description: | 
-          Took time for personal development and deep-dive into technical learning:
-          - Honed skills in [<mark>Python</mark> programming](https://github.com/sam0jones0/cracking-the-coding-interview), [data structures and algorithms](https://github.com/sam0jones0/Data_Structures_And_Algorithms), [object-oriented design patterns](https://github.com/sam0jones0/oo-design), and [<mark>Django</mark> web development](https://github.com/sam0jones0/learning_log_django)
-          - Explored unit/integration testing methodologies
-          - Delved into cybersecurity, including OWASP Top Ten, HackTheBox, and Kali Linux
-          - Sharpened Linux administration skills and mastered GNU Core Utilities
-          - Contributed to open-source projects and tackled programming challenges on [LeetCode](https://leetcode.com/sam0jones0/) and [Codewars](https://www.codewars.com/users/sam0jones0)
+          Career change from Project Management to Software Engineering via self-study (data structures/algorithms + software design) and [personal projects](https://github.com/sam0jones0).
 
       - layout: left
         title: OptiCommerce
@@ -125,13 +111,7 @@ content:
         sub_title: Project Manager
         caption: March 2014 - August 2018
         description: | 
-          Orchestrated the development and maintenance of over 100 websites:
-          - Coordinated a cross-functional team using <mark>Jira</mark> and <mark>agile</mark> methodologies
-          - Optimised server load balancing and managed DNS for all digital properties
-          - Conducted web application security testing to ensure robust defences
-          - Automated project management processes, enhancing efficiency and meeting tight deadlines
-          - Ensured adherence to web accessibility standards and brand guidelines
-          - Crafted and executed email marketing campaigns using Infusionsoft CRM
+          Managed delivery of 100+ web projects. Coordinated cross-functional teams, oversaw infrastructure (load balancing, DNS, security).
 
   - title: Projects
     layout: list
@@ -144,17 +124,11 @@ content:
             icon: "#icon-github"
             url: github.com/sam0jones0/SugarSentry
         quote: >
-          ESP32-based ambient blood glucose visualisation device with e-ink display, utilising Dexcom API and environmental sensors.
+          ESP32 ambient blood glucose visualisation (e-ink), integrating Dexcom API and environmental sensors.
         description: |
-          SugarSentry is an ongoing project that combines software and hardware to create a stylish and practical health monitoring device:
-          
-          - Developed in <mark>C++</mark> for the ESP32 platform, highly optimised for power efficiency
-          - Leverages low-power design principles for extended battery life
-          - Integrates with Dexcom API to display real-time blood glucose levels and historical data on an e-ink screen
-          - Designed as a bedside/desktop ambient display for convenient glucose level monitoring
-          - Incorporates BME280 and VCNL4040 sensors for environmental monitoring
-          - Features battery-powered operation with recharging circuits for enhanced portability
-          - Demonstrates skills in embedded systems, API integration, and hardware interfacing
+          - Embedded C++ on ESP32 with low-power design for battery-powered always-on display
+          - Dexcom API integration + e-ink UI for real-time and historical readings
+          - Hardware integration: BME280 + VCNL4040 sensors, charging circuitry
 
       - layout: top-middle
         title: PyAntiStylometry
@@ -164,31 +138,7 @@ content:
             icon: "#icon-github"
             url: github.com/sam0jones0/pyantistylometry
         quote: >
-          An automated and extensible anti-stylometry tool written in Python, exploring the intersection of privacy and natural language processing.
-        description: |
-          This project addresses the need for tools that protect an individual's writing style from identification in an era of increasing digital privacy concerns:
-          
-          - Implements various anti-stylometry techniques
-          - Provides an extensible framework for future enhancements
-          - Raises awareness about the importance of linguistic privacy
-          - Balances ethical considerations with technical implementation
-
-      - layout: top-middle
-        title: Amazon Wishlist Pricewatch
-        link: github.com/sam0jones0/amazon_wishlist_pricewatch
-        additional_links:
-          - title:  sam0jones0/amazon_wishlist_pricewatch
-            icon: "#icon-github"
-            url: github.com/sam0jones0/amazon_wishlist_pricewatch
-        quote: >
-          A Python tool to monitor your public Amazon wishlist for price reductions.
-        description: |
-          This project showcases proficiency in web data extraction using Python and BeautifulSoup, while also highlighting experience with the Python packaging ecosystem:
-          
-          - Comprehensive test coverage using <mark>pytest</mark>
-          - Static type checking with <mark>mypy</mark>
-          - Concise documentation using Google-style docstrings
-          - User-friendly README and streamlined installation process
+          Python tool implementing anti-stylometry techniques for linguistic privacy.
 
   - title: Education
     layout: list
@@ -198,25 +148,12 @@ content:
         caption: 2009 - 2012
         sub_title: BSc Psychology
         description: |
-          My psychology studies at Portsmouth honed my skills in analysing human behaviour and quantifying interactions, providing valuable insights into how people engage with systems. This understanding is crucial in today's software-integrated world, where usability is paramount.
-          
-          My dissertation explored the efficiency of information sharing in face-to-face versus virtual (webcam-to-webcam) communication, a topic that has become increasingly relevant in our digital age.
+          Dissertation focused on virtual vs. face-to-face communication efficiency.
 
   - title: A Little More About Me
     layout: text
     content: |
-      Outside of cyberspace, you might find me:
-      - Exploring the great outdoors
-      - Enjoying a good PC game
-      - Tinkering with audio hardware
-      - Getting lost in a good Sci-fi or Fantasy novel
-      
-      Some books I'd recommend:
-      - Malazan Book of the Fallen (an epic journey!)
-      - Neuromancer
-      - World War Z
-      - Dune
-      - The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World
+      Interests: outdoors, PC gaming, audio hardware, sci-fi/fantasy.
 
 # Footer
 footer_show_references: true
